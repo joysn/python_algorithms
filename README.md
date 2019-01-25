@@ -15,3 +15,5 @@ algo_python6.py - Autocomplete
 algo_python7.py - rotate matrix
 
 algo_python8.py - Validate Parenthesis In a String
+
+algo_python9.py - Find the intersection between arrays
