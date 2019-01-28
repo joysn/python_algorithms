@@ -21,3 +21,5 @@ algo_python9.py - Find the intersection between arrays
 algo_python10.py - Divide players into teams
 
 algo_python11.py - Is king threatened by Queen
+
+algo_python12.py - Place n queeens in n\*n board such that each of them are safe
