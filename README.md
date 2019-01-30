@@ -27,3 +27,7 @@ algo_python12.py - Place n queeens in n\*n board such that each of them are safe
 algo_python13.py - Find out total # of ways in which we can climb the staircase if we vlimb 1 or 2 steps at a time [Dynamic Programing]
 
 algo_python14.py - same as python13, Topdown, caching
+
+algo_python15.py - Find out total # of ways in which we can climb the staircase if we vlimb 1 or 2 steps at a time [Bottom up, memoization]
+
+
