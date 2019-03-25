@@ -38,4 +38,6 @@ algo_python17b.py - Knapsack unbound
 
 algo_ptyhon19.py - Given a list of numbers,remove and print every third number from a list of numbers until the list becomes empty  
 
+algo_python23.py - Give a wallet amount and the item cost, find the max amount of items that can be bought from the wallet_amount  
+
 
