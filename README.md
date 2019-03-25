@@ -34,4 +34,8 @@ algo_python16.py - Make change using the coins [25,10,5,1] using minimum number 
 
 algo_python17.py - Knapsack, top down, Memoization
 
-algo_python17.py - Knapsack unbound  
+algo_python17b.py - Knapsack unbound  
+
+algo_ptyhon19.py - Given a list of numbers,remove and print every third number from a list of numbers until the list becomes empty  
+
+
