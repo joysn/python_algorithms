@@ -38,6 +38,8 @@ algo_python17b.py - Knapsack unbound
 
 algo_ptyhon19.py - Given a list of numbers,remove and print every third number from a list of numbers until the list becomes empty  
 
+algp_python21.py Given a list of lists, the task is to find the elements which are common in all sublist.  
+
 algo_python23.py - Give a wallet amount and the item cost, find the max amount of items that can be bought from the wallet_amount  
 
 
