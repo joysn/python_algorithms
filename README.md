@@ -36,7 +36,9 @@ algo_python17.py - Knapsack, top down, Memoization
 
 algo_python17b.py - Knapsack unbound  
 
-algo_ptyhon19.py - Given a list of numbers,remove and print every third number from a list of numbers until the list becomes empty  
+algo_ptyhon19.py - Given a list of numbers,remove and print every third number from a list of numbers until the list becomes empty 
+
+algo_python20.py - Ways to remove duplicates from list  
 
 algp_python21.py Given a list of lists, the task is to find the elements which are common in all sublist.  
 
