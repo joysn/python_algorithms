@@ -44,4 +44,6 @@ algp_python21.py Given a list of lists, the task is to find the elements which a
 
 algo_python23.py - Give a wallet amount and the item cost, find the max amount of items that can be bought from the wallet_amount  
 
+algo_python24.py - Given 2 string, find if they match exctly or their distance is n , case insenstively
+
 
