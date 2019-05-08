@@ -46,4 +46,7 @@ algo_python23.py - Give a wallet amount and the item cost, find the max amount o
 
 algo_python24.py - Given 2 string, find if they match exctly or their distance is n , case insenstively
 
+algo_python25 - Give a string , find all its permutations - recursive solution
+
+
 
