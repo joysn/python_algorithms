@@ -48,5 +48,5 @@ algo_python24.py - Given 2 string, find if they match exctly or their distance i
 
 algo_python25 - Give a string , find all its permutations - recursive solution
 
-
+algo_python26 - find all permutations of the shorter string within the longer one
 
