@@ -1,27 +1,39 @@
-# Unbound knapsack
-# Python3 program to find maximum achievable value with a knapsack of weight max_weight and multiple instances allowed. 
-# Returns the maximum value  with knapsack of max_weight capacity 
+# 0-1 Knapsack
+# ● Question: Given a list of items with values and weights, as well as a max weight,
+# find the maximum value you can generate from items where the sum of the
+# weights is less than the max.
+# ● Eg.
+# items = {(w:1, v:6), (w:2, v:10), (w:3, v:12)}
+# maxWeight = 5
+# knapsack(items, maxWeight) = 22
 
-def unboundedKnapsack(max_weight, values, weights): 
-  
-    # sack[wt] is going to store maximum  value with knapsack capacity wt. 
-    sack = [0 for i in range(max_weight + 1)] 
-  
-    ans = 0
-  
-    # Fill sack[] using above recursive formula 
-    for wt in range(max_weight + 1): 
-        for j in range(len(values)): 
-            if (weights[j] <= wt): 
-                sack[wt] = max(sack[wt], sack[wt - weights[j]] + values[j]) 
-  
-    return sack[max_weight] 
-  
-max_weight = 100
-values = [10, 30, 20] 
-weights = [5, 10, 15]  
-  
-print(unboundedKnapsack(max_weight, values, weights)) 
+
+def ks(n,W):
+	global cache
+	if cache[n][W]:
+		return cache[n][W]
+	if n == 0 or W == 0:
+		return 0
+	elif weights[n] > W:
+		result = ks(n-1,W)
+	else:
+		temp1 = ks(n-1,W)
+		temp2 = values[n] + ks(n-1,W-weights[n])
+		if temp1 > temp2:
+			result = temp1
+		else:
+			result = temp2
+			
+	cache[n][W] = result
+	return result
+	
+
+values = [6, 10, 12] 
+weights = [1, 2, 3] 
+W = 5
+n = len(values) # len = 3, but index ends at 2
+cache = [[0 for i in range(W+1)] for j in range(n)]
+print(ks(n-1,W)) 	
 
 # (base) D:\>python algo_python17b.py
-# 300
+# 22
