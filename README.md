@@ -32,7 +32,8 @@ algo_python15.py - Find out total # of ways in which we can climb the staircase 
 
 algo_python16.py - Make change using the coins [25,10,5,1] using minimum number of coins Dynamic Programming, Top Down
 
-algo_python17.py - Knapsack, top down, Memoization
+algo_python17.py  - Knapsack, top down, Memoization
+algo_python17a.py - (Correct) Knapsack, top down, Memoization
 
 algo_python17b.py - Knapsack unbound  
 
